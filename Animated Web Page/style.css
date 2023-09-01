@@ -38,18 +38,21 @@
 }
 
 @keyframes bounceInLeft {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(50%);
-  }
-  50% {
-    opacity: 1;
-    -webkit-transform: translateX(50%);
-  }
-  70% {
-    -webkit-transform: translateX(50%);
-  }
-  100% {
-    -webkit-transform: translateX(50%);
-  }
+	0% {
+		opacity: 0;
+		transform: translateX(-2000px);
+	}
+
+	60% {
+		transform: translateX(20px);
+	}
+
+	80% {
+		transform: translateX(-5px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
 }
