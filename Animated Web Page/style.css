@@ -34,7 +34,7 @@
 
 .bounceInLeft {
   animation-name: bounceInLeft;
-  animation-duration: 5s;
+  animation-duration: 3s;
 }
 
 @keyframes bounceInLeft {
@@ -42,8 +42,14 @@
     opacity: 0;
     -webkit-transform: translateX(50%);
   }
-  100% {
+  50% {
     opacity: 1;
-    -webkit-transform: translateX(100%);
+    -webkit-transform: translateX(50%);
+  }
+  70% {
+    -webkit-transform: translateX(50%);
+  }
+  100% {
+    -webkit-transform: translateX(50%);
   }
 }
