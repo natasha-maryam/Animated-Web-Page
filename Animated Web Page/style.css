@@ -1,0 +1,49 @@
+.main {
+  background-color: black;
+  color: white;
+  width: 170px;
+  height: 30px;
+  font-size: 25px;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.8;
+}
+.bounceIn {
+  animation-name: bounceIn;
+  animation-duration: 1s;
+}
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0.3);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(o.9);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+
+.bounceInLeft {
+  animation-name: bounceInLeft;
+  animation-duration: 5s;
+}
+
+@keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(50%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(100%);
+  }
+}
