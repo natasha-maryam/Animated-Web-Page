@@ -34,137 +34,162 @@
 
 .bounceInLeft {
   animation-name: bounceInLeft;
-  animation-duration: 3s;
+  animation-duration: 2s;
 }
 
 @keyframes bounceInLeft {
-	0% {
-		opacity: 0;
-		transform: translateX(-2000px);
-	}
-
-	60% {
-		transform: translateX(0px);
-	}
-
-	80% {
-		transform: translateX(-5px);
-	}
-
-	100% {
-		opacity: 1;
-		transform: translateX(0);
-	}
-}
-
-.bounceInRight{
-  animation-name: bounceInRight;
-  animation-duration: 3s;
-}
-
-@keyframes bounceInRight{
   0% {
-		opacity: 0;
-		transform: translateX(2000px);
-	}
+    opacity: 0;
+    transform: translateX(-2000px);
+  }
 
-	60% {
-		transform: translateX(0px);
-	}
+  60% {
+    transform: translateX(0px);
+  }
 
-	80% {
-		transform: translateX(5px);
-	}
+  80% {
+    transform: translateX(-5px);
+  }
 
-	100% {
-		opacity: 1;
-		transform: translateX(0);
-	}
-
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
-.fadeIn{
+
+.bounceInRight {
+  animation-name: bounceInRight;
+  animation-duration: 2s;
+}
+
+@keyframes bounceInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(2000px);
+  }
+
+  60% {
+    transform: translateX(0px);
+  }
+
+  80% {
+    transform: translateX(5px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.fadeIn {
   animation-name: fadeIn;
   animation-duration: 3s;
 }
 
-@keyframes fadeIn{
-  0%{
-    opacity:0;
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  50%{
-    opacity:0;
+  50% {
+    opacity: 0;
   }
-  70%{
-    opacity:0.1;
+  70% {
+    opacity: 0.1;
   }
-  100%{
-    opacity:1;}
+  100% {
+    opacity: 1;
+  }
 }
 
-.fadeInDown{
+.fadeInDown {
   animation-name: fadeInDown;
   animation-duration: 3s;
 }
 
-@keyframes fadeInDown{
-  0%{
-    opacity:0;
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
   }
-  50%{
-    opacity:0;
+  50% {
+    opacity: 0;
     -webkit-transform: translateY(-20px);
   }
-  70%{
-    opacity:0.2;
+  70% {
+    opacity: 0.2;
     -webkit-transform: translateY(20px);
   }
-  100%{
-    opacity:1;
+  100% {
+    opacity: 1;
     -webkit-transform: tarnslateY(px);
   }
 }
 
-.fadeInUp{
-  animation-name:fadeInUp;
-  animation-duration:6s;
-
+.fadeInUp {
+  animation-name: fadeInUp;
+  animation-duration: 5s;
 }
 
 @keyframes fadeInUp {
-  0%{
-    opacity:0;
+  0% {
+    opacity: 0;
   }
-  50%{
-    opacity:0;
+  50% {
+    opacity: 0;
   }
-  70%{
-    opacity:0.2;
+  70% {
+    opacity: 0.2;
     -webkit-transform: translateY(-20px);
   }
-  100%{
-    opacity:1;
+  100% {
+    opacity: 1;
     -webkit-transform: tarnslateY(px);
   }
 }
 
-.moveUp{
-  animation-name:moveUp;
-  animation-duration: 9s;
+.moveUp {
+  animation-name: moveUp;
+  animation-duration: 8s;
 }
 
 @keyframes moveUp {
-  0%{
-    opacity:0;
+  0% {
+    opacity: 0;
   }
-  50%{
-    opacity:0;
+  50% {
+    opacity: 0;
   }
-  70%{
-    opacity:0.7;
+  70% {
+    opacity: 0.7;
     -webkit-transform: translateY(-20px);
   }
-  100%{
-    opacity:1;
+  100% {
+    opacity: 1;
     -webkit-transform: tarnslateY(px);
   }
+}
+
+.fadeBgColor {
+  animation-name: fadeBgColor;
+  animation-duration: 10s;
+}
+
+@keyframes fadeBgColor {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+    background-color: rgb(44, 42, 42);
+  }
+}
+
+.bounceInTwo {
+  animation-name: bounceIn;
+  animation-delay: 12s;
 }
